@@ -1,0 +1,10 @@
+:root {
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 0, 0, 0.9);
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#changingContent {
+  text-decoration: underline;
+}

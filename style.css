@@ -12,11 +12,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* First column or row */
 #changingContent {
   text-decoration: underline;
 }
 a {
   text-decoration: none;
+  color: white;
 }
 i {
   font-size: 50px;
@@ -24,6 +27,7 @@ i {
   margin: 1%;
 }
 
+/* Second column or row */
 aside details {
   margin: 1%;
 }
@@ -33,13 +37,14 @@ aside details > summary {
 }
 aside details > summary::after {
   content: " < ";
+  color: lightgreen;
 }
 aside details[open] > summary::after {
   content: " x ";
+  color: red;
 }
 aside details[open] > p {
   background-color: rgba(90, 87, 87, 0.4);
-  border: 1px solid white;
   padding: 3%;
 }
 @media only screen and (min-width: 900px) {

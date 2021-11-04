@@ -19,7 +19,6 @@ body {
 }
 a {
   text-decoration: none;
-  color: white;
 }
 i {
   font-size: 50px;
@@ -30,6 +29,7 @@ i {
 /* Second column or row */
 aside details {
   margin: 1%;
+  user-select: none;
 }
 aside details > summary {
   font-size: 1.25em;
@@ -50,6 +50,9 @@ aside details[open] > p {
 aside div.card {
   position: absolute;
   right: 5px;
+  margin-bottom: 5px;
+  max-height: 270px;
+  overflow: scroll;
   width: 48vw;
   text-align: center;
   padding: 1%;

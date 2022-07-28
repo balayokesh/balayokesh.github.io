@@ -7,19 +7,28 @@
   text-align: center;
   font-size: 1.25em;
 }
+
 body {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+    justify-content: space-around;
+  }
 }
 
 /* First column or row */
 #changingContent {
   text-decoration: underline;
 }
+
 a {
   text-decoration: none;
 }
+
 i {
   font-size: 50px;
   color: #fff;
@@ -31,22 +40,27 @@ aside details {
   margin: 1%;
   user-select: none;
 }
-aside details > summary {
+
+aside details>summary {
   font-size: 1.25em;
   list-style: none;
 }
-aside details > summary::after {
+
+aside details>summary::after {
   content: " < ";
   color: lightgreen;
 }
-aside details[open] > summary::after {
+
+aside details[open]>summary::after {
   content: " x ";
   color: red;
 }
-aside details[open] > p {
+
+aside details[open]>p {
   background-color: rgba(90, 87, 87, 0.4);
   padding: 3%;
 }
+
 aside div.card {
   position: absolute;
   right: 5px;
@@ -60,17 +74,22 @@ aside div.card {
   border-radius: 5px;
   background: rgb(255, 255, 255);
 }
+
 aside div.card p {
   text-align: left;
 }
-@media only screen and (min-width: 900px) {
+
+@media only screen and (min-width: 768px) {
+  body {
+    justify-content: center;
+    align-items: center;
+  }
   aside {
     width: 50vw;
   }
   main {
     width: 50vw;
   }
-
   aside {
     display: flex;
     flex-direction: column;

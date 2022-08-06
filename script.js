@@ -4,7 +4,6 @@ function changeText() {
   const thingsIDo = [
     "Web development",
     "Competitive programming",
-    "Data analysis",
     "Gaming"
   ];
   if (current > 2) {

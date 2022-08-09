@@ -3,6 +3,7 @@ let current = -1;
 function changeText() {
   const thingsIDo = [
     "Web development",
+    "Ui design",
     "Competitive programming",
     "Gaming"
   ];

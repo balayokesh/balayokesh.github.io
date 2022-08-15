@@ -3,9 +3,9 @@ let current = -1;
 function changeText() {
   const thingsIDo = [
     "Web development",
-    "Ui design",
+    "UI design",
     "Competitive programming",
-    "Gaming"
+    "Open Source"
   ];
   if (current > 2) {
     current = -1;

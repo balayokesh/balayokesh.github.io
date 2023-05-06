@@ -7,12 +7,21 @@
   text-align: center;
   font-size: 1.25em;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   display: flex;
   height: 100vh;
 }
 
 /* First column or row */
+main > p {
+  margin: 1em;
+
+}
 #changingContent {
   text-decoration: underline;
 }
@@ -54,13 +63,22 @@ aside div.card {
   overflow: scroll;
   width: 48vw;
   text-align: center;
-  padding: 1%;
   color: black;
   border-radius: 5px;
   background: rgb(255, 255, 255);
+  padding: 1em;
 }
 aside div.card p {
   text-align: left;
+}
+.card ul {
+  list-style-type: none;
+}
+.card > h3 {
+  margin: 0.5em;
+}
+.card > hr {
+  margin: 1em 0;
 }
 
 @media only screen and (min-width: 768px) {

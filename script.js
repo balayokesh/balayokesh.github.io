@@ -4,10 +4,9 @@ function changeText() {
   const thingsIDo = [
     "Web development",
     "UI design",
-    "Freelancing",
     "Open Source"
   ];
-  if (current > 2) {
+  if (current === thingsIDo.length) {
     current = -1;
   }
   current++;

@@ -6,7 +6,7 @@ function changeText() {
     "UI design",
     "Open Source"
   ];
-  if (current === thingsIDo.length) {
+  if (current === thingsIDo.length - 1) {
     current = -1;
   }
   current++;

@@ -14,3 +14,15 @@ function changeText() {
 }
 
 setInterval(changeText, 3000);
+
+document.querySelectorAll('details').forEach((detail) => {
+  detail.addEventListener('toggle', (event) => {
+    if (detail.open) {
+      document.querySelectorAll('details').forEach((otherDetail) => {
+        if (otherDetail !== detail) {
+          otherDetail.open = false;
+        }
+      });
+    }
+  });
+});

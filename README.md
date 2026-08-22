@@ -1,20 +1,41 @@
+
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+  <h1>My Portfolio</h1>
+  <p>A modern, responsive single-page application showcasing my projects, skills, and experience.</p>
+  <a href="https://balayokesh.github.io">View Live Site</a> 
 </div>
 
-# Run and deploy your AI Studio app
+## 🚀 Project Overview
+This is my personal portfolio website built to serve as a digital resume and project showcase. The goal was to create a fast, minimal, and accessible experience for recruiters and collaborators to learn more about my technical background.
 
-This contains everything you need to run your app locally.
+## 🛠️ Tech Stack
+- **Framework**: React
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Deployment**: GitHub Pages
 
-View your app in AI Studio: https://ai.studio/apps/1df7f26b-3dad-4b03-b451-c9ed21bc8877
+## ✨ Features
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop views.
+- **Project Gallery**: A curated list of my best work with links to source code and live demos.
+- **Dynamic Resume**: A structured layout highlighting my professional experience and education.
 
-## Run Locally
+## 💻 Local Setup
 
-**Prerequisites:**  Node.js
+### Prerequisites
+- Node.js installed on your machine.
 
+### Installation & Running
+1. Clone the repository:
+```bash
+git clone https://github.com/balayokesh/balayokesh.github.io.git
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+2. Install dependencies:
+```bash
+npm install
+```
+
+2. Run the project in local:
+```bash
+npm run dev
+```
